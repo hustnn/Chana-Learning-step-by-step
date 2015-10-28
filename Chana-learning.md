@@ -1,0 +1,17 @@
+- SBTRatsPlugin.scala, src/main/scala/chana/jpql/rats/JPQLBasic.rats, src/main/scala/chana/jpql/rats/LexerJPQL.rats
+- src/main/scala/chana/jpql/rats/Character.rats, src/main/scala/chana/jpql/rats/Identifier.rats, src/main/scala/chana/jpql/rats/Keyword.rats, src/main/scala/chana/jpql/rats/LexerJPQL.rats, src/main/scala/chana/jpql/rats/Literal.rats, src/main/scala/chana/jpql/rats/Separator.rats, src/main/scala/chana/jpql/rats/Spacing.rats, src/main/scala/chana/jpql/rats/State.rats, src/main/scala/chana/jpql/rats/Unicode.rats
+- src/main/scala/chana/jpql/rats/Character.rats, src/main/scala/chana/jpql/rats/Identifier.rats, src/main/scala/chana/jpql/rats/JPQL-2_1.BNF, src/main/scala/chana/jpql/rats/JPQLGrammar.rats, src/main/scala/chana/jpql/rats/Keyword.rats, src/main/scala/chana/jpql/rats/LexerJPQL.rats, src/main/scala/chana/jpql/rats/Literal.rats, src/main/scala/chana/jpql/rats/ParserState.java, src/main/scala/chana/jpql/rats/Separator.rats, src/main/scala/chana/jpql/rats/Spacing.rats, src/main/scala/chana/jpql/rats/State.rats
+- src/main/scala/chana/jpql/nodes/JPQLNodes.scala
+- src/test/scala/chana/jpql/JPQLGrammarSpec.scala
+- src/main/scala/chana/jpql/nodes/JPQLNodes.scala, src/main/scala/chana/jpql/nodes/JPQLParser.scala
+- src/main/resources/reference.conf, src/main/scala/chana/http/RestRoute.scala, src/main/scala/chana/http/RestRouteAkka.scala, src/main/scala/chana/jpql/DistributedJPQLBoard.scala, src/main/scala/chana/package.scala, src/main/scala/chana/schema/DistributedSchemaBoard.scala, src/main/scala/chana/script/DistributedScriptBoard.scala, src/multi-jvm/scala/chana/ChanaClusterSpec.scala
+- Preliminary JQPLEvaluator, skeleton plus simple select clauses: src/main/scala/chana/jpql/JPQLEvaluator.scala, src/test/scala/chana/jpql/JPQLEvaluatorSpec.scala
+- Added JPQLAggregator: src/main/scala/chana/http/RestRoute.scala, src/main/scala/chana/http/RestRouteAkka.scala, src/main/scala/chana/jpql/JPQLAggregator.scala, 
+- Prototype of JPQLReporting: src/main/scala/chana/Entity.scala, src/main/scala/chana/jpql/JPQLReporting.scala
+- Implemented orderby a sequence of items: src/main/scala/chana/jpql/JPQLReducer.scala
+- src/test/scala/chana/jpql/JPQLReduceEvaluatorSpec.scala
+- src/main/scala/chana/jpql/JPQLMapperEvaluator.scala
+- A prelimirary metadata collector which will create a projection schema: src/main/scala/chana/jpql/JPQLMetadataEvaluator.scala, 
+- Moved avro projection code to chana.avro package: avpath/src/main/scala/chana/avro/Projection.scala, src/main/scala/chana/serializer/AvroProjectionSerializer.scala
+- Added a plain JPQLVisitor: src/main/scala/chana/jpql/JPQLVisitor.scala, 
+- Added some test scripts of jpql: src/test/resources/avsc/jpql.ask
